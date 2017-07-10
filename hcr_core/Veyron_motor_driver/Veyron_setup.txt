@@ -1,0 +1,63 @@
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*                                 o             o                                 *
+*                                  o           o                                  *
+*                                   o         o                                   *
+*                           o o o o o o o o o o o o o o                           *
+*                         o                             o                         *
+*                        o                               o                        *
+*              o o       o        O             O        o       o o              *
+*             o o o      o                               o      o o o             *
+*             o o o      o                               o      o o o             *
+  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+    * *  Thank you for using the Veyron 2x12A dc motor driver from DFRobot  * *    
+  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+*                                                                                 *
+* ::::       .::::::::. . .:::::::                                                *
+* ::  ::     ::         :         ::                                              *
+* ::   ::    ::         :         ::                                              *
+* ::    ::   ::         :         ::             :.                    :.         *
+* ::     ::  ::         :       ::               ::                    ::         *
+* ::      ::::::::::::::::::::::::      ::::::   ::::::::     ::::::   :::::::.   *
+* ::     ::  ::         :       ::    ::      :: ::      :: ::      :: ::         *
+* ::    ::   ::         :         ::  ::      :: ::      :: ::      :: ::         *
+* ::   ::    ::         :         ::  ::      :: ::      :: ::      :: ::         *
+* ::  ::     ::         :         ::  ::      :: ::      :: ::      :: ::         *
+* ::::       ::         :         ::    ::::::   ::::::::     ::::::     :::::::. *
+*                                                                                 *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+/*Common Parameters*/
+ID                         : 1
+BaudRate                   : 57600bps
+Voltage Range              : 6.0-36.0V
+Maximum Continuous Current : 12000mA
+Maximum Peaky Current      : 20000mA
+Protected Temperature      : 100C
+Signal Mode                : Discontinuous
+PPM Signal Range           : 500-2500us
+PWM Type                   : Hpwm-Lpwm(on-off-on)
+Direction Type             : CW/CCW
+Discontinuous Timeout      : 1000ms
+Start Detection Mode       : Non Zero Detection
+
+/*Parameters Of Motor1*/
+Reduction Gear Ratio       : 51.00
+Encoder Resolution         : 13
+Maximum Velocity           : 131r/min
+Velocity Mode              : Loop
+Acceleration               : 100r/min/s
+Deceleration               : 100r/min/s
+PID_Kp                     : 0.423
+PID_Ti                     : 16
+PID_Td                     : 4
+
+/*Parameters Of Motor2*/
+Reduction Gear Ratio       : 51.00
+Encoder Resolution         : 13
+Maximum Velocity           : 130r/min
+Velocity Mode              : Loop
+Acceleration               : 100r/min/s
+Deceleration               : 100r/min/s
+PID_Kp                     : 0.426
+PID_Ti                     : 16
+PID_Td                     : 4
